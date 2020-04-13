@@ -22,7 +22,7 @@ estimate(formula, model = c("DyNAM", "REM"),
  \item{choice}{a multinomial receiver choice model if \code{model = "DyNAM"} (Stadtfeld and Block, 2017),
  or the general Relational event model if \code{model = "REM"} (Butts, 2008).}
  \item{choice_coordination}{a multinomial-multinomial model for coordination ties (Stadtfeld, Hollway and Block, 2017)}
- \item{rate}{A individual activity rates model if \code{model = "DyNAM"} (Stadtfeld and Block, 2017)}
+ \item{rate}{An individual activity rates model if \code{model = "DyNAM"} (Stadtfeld and Block, 2017)}
 }}
 
 \item{estimationInit}{a list containing lower level technical parameters for estimation. May be:
